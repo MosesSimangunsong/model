@@ -30,3 +30,7 @@ runs/**/checkpoint-*/
 # Salinan repo aplikasi LeveLearn (hanya rujukan; berisi database & unggahan pengguna, 747 berkas)
 src/
 node_modules/
+
+# Data pilot dan proposal (tidak di-push)
+data/
+docs/proposal/
