@@ -1,0 +1,36 @@
+# Lingkungan Python & editor
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Bobot model & video sumber (besar / bukan karya sendiri)
+Model/
+Data/Video/
+*.mp4
+
+# Artefak training besar (catatan runs/*.json kecil tetap dilacak)
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+runs/**/adapter*/
+runs/**/checkpoint-*/
+
+# Berkas lokal / rahasia
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# Salinan repo aplikasi LeveLearn (hanya rujukan; berisi database & unggahan pengguna, 747 berkas)
+src/
+node_modules/
+
+# Data pilot dan proposal (tidak di-push)
+data/
+docs/proposal/
