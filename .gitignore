@@ -34,3 +34,7 @@ node_modules/
 # Data pilot dan proposal (tidak di-push)
 data/
 docs/proposal/
+
+# Bungkusan dan salinan untuk Colab
+pilot_colab.zip
+pilot_colab/

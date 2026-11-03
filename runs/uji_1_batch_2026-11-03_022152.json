@@ -1,0 +1,68 @@
+{
+ "waktu": "2026-11-03 02:21:52",
+ "args": {
+  "model": "/content/drive/MyDrive/LeveLearn/models/Qwen3.5-9B",
+  "jsonl": "/content/repo/Data/Pilot/contoh_latih.jsonl",
+  "contoh": 0,
+  "sweep": "1024:5,768:9",
+  "tanpa_potong_pita": false,
+  "logits_penuh": false,
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "kbit_prep": false,
+  "sin_cudnn": false,
+  "seed": 42,
+  "out": null,
+  "dry": false
+ },
+ "paket": {
+  "torch": "2.11.0+cu130",
+  "transformers": "5.22.1",
+  "peft": "0.21.2",
+  "bitsandbytes": "0.50.2",
+  "accelerate": "1.15.0",
+  "flash-linear-attention": null,
+  "causal-conv1d": null
+ },
+ "contoh_id": "pilot_bdd_01_s001_qg",
+ "gpu": "Tesla T4",
+ "kapabilitas": [
+  7,
+  5
+ ],
+ "dtype": "torch.float16",
+ "cuda": "13.0",
+ "cudnn": 92700,
+ "cudnn_aktif": true,
+ "detik_muat": 85.22150540351868,
+ "vram_setelah_muat_gib": 7.378721714019775,
+ "lapisan_lora": 32,
+ "percobaan": [
+  {
+   "max_side": 1024,
+   "n_frame_diminta": 5,
+   "potong_pita": true,
+   "hemat_logits": true,
+   "frame_ids": [
+    "F001",
+    "F007",
+    "F014",
+    "F021",
+    "F027"
+   ],
+   "n_frame": 5,
+   "total_token": 4162,
+   "token_label": 707,
+   "token_gambar": 2272,
+   "detik_maju_mundur": 29.39357042312622,
+   "loss": 0.6722480058670044,
+   "vram_puncak_gib": 13.276330471038818,
+   "loss_ablasi": {
+    "frame_asli": 0.6722480058670044,
+    "frame_kosong": 0.7086121439933777
+   },
+   "hasil": "OK"
+  }
+ ]
+}

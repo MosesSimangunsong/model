@@ -1,0 +1,66 @@
+{
+ "waktu": "2026-11-03 01:49:08",
+ "args": {
+  "model": "/content/drive/MyDrive/LeveLearn/models/Qwen3.5-9B",
+  "jsonl": "/content/repo/Data/Pilot/contoh_latih.jsonl",
+  "contoh": 0,
+  "sweep": "768:2,512:2,512:3",
+  "logits_penuh": false,
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "kbit_prep": false,
+  "seed": 42,
+  "out": null,
+  "dry": false
+ },
+ "paket": {
+  "torch": "2.11.0+cu130",
+  "transformers": "5.22.1",
+  "peft": "0.21.2",
+  "bitsandbytes": "0.50.2",
+  "accelerate": "1.15.0",
+  "flash-linear-attention": null,
+  "causal-conv1d": null
+ },
+ "contoh_id": "pilot_bdd_01_s001_qg",
+ "gpu": "Tesla T4",
+ "kapabilitas": [
+  7,
+  5
+ ],
+ "dtype": "torch.float16",
+ "detik_muat": 400.3147802352905,
+ "vram_setelah_muat_gib": 7.378721714019775,
+ "lapisan_lora": 32,
+ "percobaan": [
+  {
+   "max_side": 768,
+   "stride": 2,
+   "hemat_logits": true,
+   "n_frame": 14,
+   "total_token": 6738,
+   "token_label": 707,
+   "token_gambar": 4704,
+   "hasil": "OOM pada fase: maju (forward)",
+   "vram_puncak_gib": 11.64418649673462
+  },
+  {
+   "max_side": 512,
+   "stride": 2,
+   "hemat_logits": true,
+   "n_frame": 14,
+   "total_token": 4274,
+   "token_label": 707,
+   "token_gambar": 2240,
+   "detik_maju_mundur": 27.79494047164917,
+   "loss": 0.6658811569213867,
+   "vram_puncak_gib": 13.53361988067627,
+   "loss_ablasi": {
+    "frame_asli": 0.6658811569213867,
+    "frame_kosong": 0.7048510909080505
+   },
+   "hasil": "OK"
+  }
+ ]
+}

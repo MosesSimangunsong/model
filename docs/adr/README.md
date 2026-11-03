@@ -34,6 +34,7 @@ Aturan:
 | [0012](0012-pembagian-lingkungan-komputasi.md) | Pembagian lingkungan: laptop, Colab, GPU IT Del | Sementara | — |
 | [0013](0013-prapemrosesan-pilot.md) | Prapemrosesan pilot: FFmpeg dan faster-whisper | Sementara | — |
 | [0014](0014-aturan-kerja-agent.md) | Aturan kerja agent AI di repo | Diterima | — |
+| [0016](0016-potong-pita-dan-pemilihan-frame.md) | Potong pita hitam, 5 frame merata, 1024 px (pilot T4) | Sementara | Proposal V1 belum menyebut jumlah/resolusi frame |
 | [0015](0015-kontrak-prompt-json-qg-ae-v01.md) | Kontrak prompt dan JSON QG/AE v0.1 (melengkapi nama field ADR-0009) | Sementara | **Proposal V1 Tabel 3.6 perlu diselaraskan** (stimulus, status, evidence_ids, struktur AE) |
 
 ## Templat
