@@ -78,6 +78,14 @@ def baca_transkrip(path, offset_abs):
     return hasil
 
 
+def pilih_frame(frames, n):
+    """n frame berjarak merata, selalu memuat frame pertama dan terakhir (ADR-0016)."""
+    if n >= len(frames):
+        return list(frames)
+    idx = sorted({round(i * (len(frames) - 1) / (n - 1)) for i in range(n)})
+    return [frames[i] for i in idx]
+
+
 def susun_pesan(task, segment, frames, transkrip, soal=None):
     """Layout A. frames: [{'id','t_abs'}] (gambar dimasukkan terpisah ke processor, urutan sama).
     segment: {'segment_id','start','end'}. soal: satu soal QG (dict) untuk task='ae'."""

@@ -36,8 +36,15 @@ SOAL_DUMMY = {"id": "q1", "concept": "DUMMY", "stimulus": "", "stem": "DUMMY",
               "evidence_ids": ["F001"]}
 
 
-def muat_gambar(path, max_side):
+AMBANG_PITA = 30  # piksel abu-abu <= ini dianggap pita hitam (letterbox), ADR-0016
+
+
+def muat_gambar(path, max_side, potong_pita=False):
     img = Image.open(path).convert("RGB")
+    if potong_pita:  # buang pita hitam per frame: kotak terkecil yang memuat piksel non-hitam
+        kotak = img.convert("L").point(lambda v: 255 if v > AMBANG_PITA else 0).getbbox()
+        if kotak:
+            img = img.crop(kotak)
     if max_side and max(img.size) > max_side:
         s = max_side / max(img.size)
         img = img.resize((round(img.width * s), round(img.height * s)), Image.LANCZOS)
