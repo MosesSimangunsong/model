@@ -1,0 +1,27 @@
+{
+ "semua": {
+  "jumlah_tensor": 400,
+  "berubah": 400,
+  "max_abs_delta": 0.0008064390276558697,
+  "norm_delta": 2.3407884586360703
+ },
+ "lora_A": {
+  "jumlah_tensor": 200,
+  "berubah": 200,
+  "max_abs_delta": 0.0006395624950528145,
+  "norm_delta": 1.4981506175273216
+ },
+ "lora_B": {
+  "jumlah_tensor": 200,
+  "berubah": 200,
+  "max_abs_delta": 0.0008064390276558697,
+  "norm_delta": 1.7985647987454703
+ },
+ "semua_finite": true,
+ "update_berhasil": 8,
+ "target_update": 8,
+ "percobaan": 16,
+ "target_tercapai": true,
+ "status": "selesai",
+ "rasio_kunjungan": "1 QG : 3 AE per putaran (objective tidak otomatis seimbang)"
+}

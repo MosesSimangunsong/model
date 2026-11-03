@@ -1,0 +1,10 @@
+{
+ "schema_status": "tidak_sesuai",
+ "galat": [
+  "Q001: opsi harus tepat A–D dan terisi",
+  "Q002: opsi harus tepat A–D dan terisi",
+  "Q003: opsi harus tepat A–D dan terisi"
+ ],
+ "task_status": "insufficient_context",
+ "semantic_review": "belum_diperiksa"
+}

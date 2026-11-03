@@ -1,0 +1,99 @@
+{
+ "tahap": {
+  "A_preflight": "lolos dengan peringatan",
+  "B_baseline_qg": {
+   "generation_status": "berhasil",
+   "example_id": "pilot_bdd_01_s001_qg",
+   "alasan_berhenti": "eos",
+   "jumlah_token_baru": 872,
+   "detik": 89.8104932308197,
+   "parse_status": "terbaca",
+   "schema_status": "tidak_sesuai",
+   "galat": [
+    "Q001: opsi harus tepat A–D dan terisi",
+    "Q002: opsi harus tepat A–D dan terisi",
+    "Q003: opsi harus tepat A–D dan terisi"
+   ],
+   "task_status": "insufficient_context",
+   "semantic_review": "belum_diperiksa"
+  },
+  "B_baseline_ae": "ae_generation_pending",
+  "C_adapter": {
+   "tensor": 400,
+   "lapisan": 32,
+   "lora_B_awal_nol": true
+  },
+  "D_ekuivalensi_loss": {
+   "example_id": "pilot_bdd_01_s001_ae_q1",
+   "token_total": 2006,
+   "loss_hemat": 0.8353649377822876,
+   "loss_standar": 0.8353649377822876,
+   "selisih_abs": 0.0,
+   "toleransi": 0.001,
+   "setara": true
+  },
+  "E_training": {
+   "status": "selesai",
+   "update_berhasil": 8,
+   "percobaan": 16,
+   "target_tercapai": true,
+   "semua_finite": true
+  },
+  "F_simpan": {
+   "adapter_dir": "/content/drive/MyDrive/runs_pilot/pilot_02/adapter",
+   "kunci_sama": true,
+   "selisih_maks": 0.0,
+   "finite": true,
+   "reload": "reload_pending"
+  },
+  "F_after_qg": {
+   "generation_status": "berhasil",
+   "example_id": "pilot_bdd_01_s001_qg",
+   "alasan_berhenti": "batas_max_new_tokens",
+   "jumlah_token_baru": 1024,
+   "detik": 157.592591047287,
+   "parse_status": "tidak_terbaca",
+   "schema_status": "tidak_diperiksa",
+   "galat": null,
+   "task_status": null,
+   "semantic_review": "belum_diperiksa"
+  },
+  "F_after_ae": "ae_generation_pending",
+  "G_reload": {
+   "status": "selesai",
+   "state": {
+    "kunci_sama": true,
+    "selisih_maks": 0.0,
+    "lora_B_nonnol": true
+   },
+   "selisih_loss": 0.0,
+   "generasi": "berhasil",
+   "sama_dengan_after": true
+  }
+ },
+ "mulai": "2026-11-03 07:24:02",
+ "fase": {
+  "muat_model": {
+   "detik": 87.03516101837158,
+   "vram_setelah_muat_gib": 7.341568946838379,
+   "puncak_allocated_gib": 7.370673656463623,
+   "puncak_reserved_gib": 7.3984375
+  },
+  "generasi_baseline_qg": {
+   "detik": 90.49507427215576,
+   "puncak_allocated_gib": 9.636737823486328,
+   "puncak_reserved_gib": 9.751953125
+  },
+  "loss_awal": {
+   "detik": 30.960699796676636,
+   "puncak_allocated_gib": 10.698710441589355,
+   "puncak_reserved_gib": 10.8515625
+  },
+  "generasi_after_qg": {
+   "detik": 158.2353219985962,
+   "puncak_allocated_gib": 9.794086933135986,
+   "puncak_reserved_gib": 9.90234375
+  }
+ },
+ "selesai": "2026-11-03 07:39:08"
+}

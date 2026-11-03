@@ -1,0 +1,57 @@
+{
+ "source_group_id": [
+  "pilot_bdd_source_01"
+ ],
+ "urutan_contoh": [
+  "pilot_bdd_01_s001_qg",
+  "pilot_bdd_01_s001_ae_q1",
+  "pilot_bdd_01_s001_ae_q2",
+  "pilot_bdd_01_s001_ae_q3"
+ ],
+ "hash_data": {
+  "Data/Pilot/contoh_latih.jsonl": "008ee4a7e056b3b9fcdb78e9dbcd1eaa0b4a127ae426966074574d4f8c9369cc",
+  "Data/Pilot/segmen.json": "3932d11496e7cfaf867473628ffb517a789c6647c40378fe3e84f5fee3bcc9a6",
+  "Data/Pilot/transkrip.txt": "96c9b6eda60053caa6406f508e4d3a83a0397822eaa899017f4a7dc25f5e9e8c",
+  "Data/Pilot/frames/frame_001.jpg": "7bad9ed20ba7754553cb0cc41e4df350db072f98926b7ff8908bf10283e6398f",
+  "Data/Pilot/frames/frame_007.jpg": "07e3ab6af933d3eb32d3f404ab17a248cc9a30e3be763e490d682ca8c1318bb7",
+  "Data/Pilot/frames/frame_014.jpg": "e5cba15e493a215a11a783d3c501da926e7183d0a167cb84c29c85aa05396e34",
+  "Data/Pilot/frames/frame_021.jpg": "0560782a9a6ca08283ece5ad499a38d26792e26db7fd3aae3c3d912262ce7d4a",
+  "Data/Pilot/frames/frame_027.jpg": "e7ec48c388725340634c0ce6df18c7bf94251fd41db4d4da0c5444efe8827987"
+ },
+ "hash_skrip": {
+  "latih_pilot.py": "98c00cbcbde2f1ebcf74e05df72833475405d296b2c03e4f59ceee427fccf342",
+  "uji_1_batch.py": "715d97a6dae15005d82606a79030728138a3eaab72044932c404549a8522a61f",
+  "cek_sampel.py": "bf2077eb1861f5b9a73d83a5c59d19827791a47d4158aa1577bebfbdeff08cd4",
+  "prompt_qg_ae.py": "336def248c48ae9c37ed088cd1a1e8b5204b4a7c9490693bdff0b5826a1c49fc"
+ },
+ "token": [
+  {
+   "example_id": "pilot_bdd_01_s001_qg",
+   "token_total": 4162,
+   "token_gambar": 2272,
+   "token_target": 707,
+   "token_prompt": 3455
+  },
+  {
+   "example_id": "pilot_bdd_01_s001_ae_q1",
+   "token_total": 4054,
+   "token_gambar": 2272,
+   "token_target": 418,
+   "token_prompt": 3636
+  },
+  {
+   "example_id": "pilot_bdd_01_s001_ae_q2",
+   "token_total": 4099,
+   "token_gambar": 2272,
+   "token_target": 437,
+   "token_prompt": 3662
+  },
+  {
+   "example_id": "pilot_bdd_01_s001_ae_q3",
+   "token_total": 4126,
+   "token_gambar": 2272,
+   "token_target": 443,
+   "token_prompt": 3683
+  }
+ ]
+}

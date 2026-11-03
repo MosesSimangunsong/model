@@ -1,0 +1,84 @@
+{
+ "status": "selesai",
+ "proses_baru": true,
+ "lingkungan": {
+  "python": "3.13.16",
+  "paket": {
+   "torch": "2.11.0+cu130",
+   "transformers": "5.22.1",
+   "peft": "0.21.2",
+   "bitsandbytes": "0.50.2",
+   "accelerate": "1.15.0",
+   "flash-linear-attention": null,
+   "causal-conv1d": null
+  },
+  "dtype": "torch.float16",
+  "pytorch_cuda_alloc_conf": "expandable_segments:True",
+  "gpu": "Tesla T4",
+  "kapabilitas": [
+   7,
+   5
+  ],
+  "total_gib": 14.56317138671875,
+  "cuda": "13.0",
+  "cudnn": 92700,
+  "cudnn_aktif": true
+ },
+ "state": {
+  "kunci_sama": true,
+  "selisih_maks": 0.0,
+  "lora_B_nonnol": true
+ },
+ "loss": {
+  "reload": {
+   "per_contoh": [
+    {
+     "example_id": "pilot_bdd_01_s001_qg",
+     "task": "qg",
+     "loss": 0.275034099817276,
+     "token_target": 707
+    },
+    {
+     "example_id": "pilot_bdd_01_s001_ae_q1",
+     "task": "ae",
+     "loss": 0.2609737813472748,
+     "token_target": 418
+    },
+    {
+     "example_id": "pilot_bdd_01_s001_ae_q2",
+     "task": "ae",
+     "loss": 0.2664508819580078,
+     "token_target": 437
+    },
+    {
+     "example_id": "pilot_bdd_01_s001_ae_q3",
+     "task": "ae",
+     "loss": 0.29240939021110535,
+     "token_target": 443
+    }
+   ],
+   "berbobot_token_semua": 0.27407109449034617,
+   "berbobot_token_qg": 0.275034099817276,
+   "berbobot_token_ae": 0.27354656077221107,
+   "rumus": "sum(loss_i * token_target_i) / sum(token_target_i)",
+   "catatan": "loss pada data latih pilot, bukan validation/test loss"
+  },
+  "in_memory_akhir": 0.27407109449034617,
+  "selisih_berbobot": 0.0
+ },
+ "generasi_qg": {
+  "generation_status": "berhasil",
+  "example_id": "pilot_bdd_01_s001_qg",
+  "alasan_berhenti": "batas_max_new_tokens",
+  "jumlah_token_baru": 1024,
+  "detik": 156.20023441314697,
+  "parse_status": "tidak_terbaca",
+  "schema_status": "tidak_diperiksa",
+  "galat": null,
+  "task_status": null,
+  "semantic_review": "belum_diperiksa",
+  "sama_dengan_after_qg": true,
+  "indeks_beda_pertama": null
+ },
+ "catatan": "greedy tidak menjamin identik lintas backend; perbedaan dicatat, tidak ditutupi"
+}

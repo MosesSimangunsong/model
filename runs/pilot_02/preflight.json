@@ -1,0 +1,309 @@
+{
+ "fatal": [],
+ "peringatan": [
+  "T015: waktu relatif 135.0-138.0 melewati durasi segmen 137 dtk (berasal dari keluaran Whisper; tidak diubah)"
+ ],
+ "contoh": [
+  {
+   "example_id": "pilot_bdd_01_s001_qg",
+   "task": "qg",
+   "frame_ids": [
+    "F001",
+    "F007",
+    "F014",
+    "F021",
+    "F027"
+   ],
+   "ukuran_frame": [
+    {
+     "id": "F001",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      614
+     ]
+    },
+    {
+     "id": "F007",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F014",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F021",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F027",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    }
+   ],
+   "token_total": 4162,
+   "token_gambar": 2272,
+   "token_target": 707,
+   "token_prompt": 3455,
+   "label_sama_target": true,
+   "template_latih_sama_inferensi": true,
+   "target_tidak_di_prompt": true
+  },
+  {
+   "example_id": "pilot_bdd_01_s001_ae_q1",
+   "task": "ae",
+   "frame_ids": [
+    "F001",
+    "F007",
+    "F014",
+    "F021",
+    "F027"
+   ],
+   "ukuran_frame": [
+    {
+     "id": "F001",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      614
+     ]
+    },
+    {
+     "id": "F007",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F014",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F021",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F027",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    }
+   ],
+   "token_total": 4054,
+   "token_gambar": 2272,
+   "token_target": 418,
+   "token_prompt": 3636,
+   "label_sama_target": true,
+   "template_latih_sama_inferensi": true,
+   "target_tidak_di_prompt": true
+  },
+  {
+   "example_id": "pilot_bdd_01_s001_ae_q2",
+   "task": "ae",
+   "frame_ids": [
+    "F001",
+    "F007",
+    "F014",
+    "F021",
+    "F027"
+   ],
+   "ukuran_frame": [
+    {
+     "id": "F001",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      614
+     ]
+    },
+    {
+     "id": "F007",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F014",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F021",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F027",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    }
+   ],
+   "token_total": 4099,
+   "token_gambar": 2272,
+   "token_target": 437,
+   "token_prompt": 3662,
+   "label_sama_target": true,
+   "template_latih_sama_inferensi": true,
+   "target_tidak_di_prompt": true
+  },
+  {
+   "example_id": "pilot_bdd_01_s001_ae_q3",
+   "task": "ae",
+   "frame_ids": [
+    "F001",
+    "F007",
+    "F014",
+    "F021",
+    "F027"
+   ],
+   "ukuran_frame": [
+    {
+     "id": "F001",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      614
+     ]
+    },
+    {
+     "id": "F007",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F014",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F021",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    },
+    {
+     "id": "F027",
+     "asli": [
+      1804,
+      1080
+     ],
+     "dipakai": [
+      1024,
+      429
+     ]
+    }
+   ],
+   "token_total": 4126,
+   "token_gambar": 2272,
+   "token_target": 443,
+   "token_prompt": 3683,
+   "label_sama_target": true,
+   "template_latih_sama_inferensi": true,
+   "target_tidak_di_prompt": true
+  }
+ ],
+ "catatan": "status 'diperiksa' adalah metadata anotasi; kode tidak memverifikasi ulang isinya"
+}

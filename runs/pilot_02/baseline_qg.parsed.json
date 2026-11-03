@@ -1,0 +1,71 @@
+{
+ "parse_status": "terbaca",
+ "objek": {
+  "schema_version": "qg-0.1",
+  "status": "insufficient_context",
+  "issue": "Konteks segmen hanya mendukung penjelasan reduksi tabel kebenaran untuk ekspresi p ∨ (q ∧ r), khususnya pada baris 1–4 dan 5–8. Tidak ada informasi eksplisit tentang negasi, konjungsi tunggal, atau struktur logika lain yang diperlukan untuk membuat 3 soal pilihan ganda yang berbeda secara konseptual. Semua soal yang mungkin dibuat akan menjadi parafrasa dari proses reduksi yang sama, melanggar kriteria 'hindari tiga soal yang hanya merupakan parafrasa'.",
+  "questions": [
+   {
+    "id": "Q001",
+    "concept": "Mengidentifikasi baris tabel kebenaran yang menghasilkan nilai T untuk p ∨ (q ∧ r) ketika p = T",
+    "stimulus": "Tabel kebenaran untuk p ∨ (q ∧ r) dengan 8 baris (p, q, r dari TTT hingga FFF)",
+    "stem": "Manakah baris-baris dalam tabel kebenaran p ∨ (q ∧ r) yang menghasilkan nilai T ketika p bernilai T?",
+    "options": [
+     "A. Baris 1, 2, 3, 4",
+     "B. Baris 1, 2, 5, 6",
+     "C. Baris 1, 2, 3, 5",
+     "D. Baris 1, 2, 3, 4, 5, 6, 7, 8"
+    ],
+    "answer_key": "A",
+    "evidence_ids": [
+     "F001",
+     "F007",
+     "F014",
+     "F021",
+     "F027"
+    ]
+   },
+   {
+    "id": "Q002",
+    "concept": "Menggunakan simbol '*' untuk merepresentasikan nilai T/F yang tidak mempengaruhi hasil akhir",
+    "stimulus": "Tabel kebenaran p ∨ (q ∧ r) yang direduksi menjadi 4 baris dengan simbol '*' pada kolom q dan r",
+    "stem": "Mengapa baris 1 dan 2 dalam tabel kebenaran p ∨ (q ∧ r) dapat digabungkan menjadi satu baris dengan simbol '*' pada kolom q dan r?",
+    "options": [
+     "A. Karena p bernilai T, sehingga nilai q dan r tidak mempengaruhi hasil akhir",
+     "B. Karena q dan r selalu bernilai sama dalam baris tersebut",
+     "C. Karena p bernilai F, sehingga nilai q dan r tidak relevan",
+     "D. Karena operator ∨ mengabaikan nilai q dan r"
+    ],
+    "answer_key": "A",
+    "evidence_ids": [
+     "F007",
+     "F014",
+     "F021",
+     "F027"
+    ]
+   },
+   {
+    "id": "Q003",
+    "concept": "Mengidentifikasi baris yang menghasilkan nilai F untuk p ∨ (q ∧ r)",
+    "stimulus": "Tabel kebenaran p ∨ (q ∧ r) dengan 8 baris (p, q, r dari TTT hingga FFF)",
+    "stem": "Manakah baris-baris dalam tabel kebenaran p ∨ (q ∧ r) yang menghasilkan nilai F?",
+    "options": [
+     "A. Baris 5, 6, 7, 8",
+     "B. Baris 6, 7, 8",
+     "C. Baris 5, 6, 7",
+     "D. Baris 6, 7"
+    ],
+    "answer_key": "A",
+    "evidence_ids": [
+     "F001",
+     "F007",
+     "F014",
+     "F021",
+     "F027"
+    ]
+   }
+  ]
+ },
+ "galat": null,
+ "berpagar_markdown": false
+}

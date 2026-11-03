@@ -1,0 +1,60 @@
+{
+ "mode": "train",
+ "dry": false,
+ "model": "/content/drive/MyDrive/Model/Qwen3.5-9B",
+ "jsonl": "/content/repo/Data/Pilot/contoh_latih.jsonl",
+ "output_dir": "/content/drive/MyDrive/runs_pilot/pilot_02",
+ "run_dir": null,
+ "max_side": 1024,
+ "n_frame": 5,
+ "tanpa_potong_pita": false,
+ "steps": 8,
+ "maks_percobaan": 32,
+ "lr": 0.0001,
+ "r": 16,
+ "alpha": 32,
+ "dropout": 0.05,
+ "seed": 42,
+ "max_new_tokens": 1024,
+ "gen_ae": false,
+ "lanjut_tanpa_baseline": false,
+ "sin_cudnn": false,
+ "potong": true,
+ "frame_ids": [
+  "F001",
+  "F007",
+  "F014",
+  "F021",
+  "F027"
+ ],
+ "optimizer": {
+  "nama": "AdamW",
+  "lr": 0.0001,
+  "betas": [
+   0.9,
+   0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0.0,
+  "foreach": false,
+  "fused": false
+ },
+ "max_grad_norm": 1.0,
+ "scheduler": "konstan, tanpa warmup",
+ "batch": 1,
+ "grad_accumulation": 1,
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "target_modules": "model\\.language_model\\.layers\\.\\d+\\.(self_attn\\.(q|k|v|o)_proj|linear_attn\\.(in_proj_qkv|in_proj_z|out_proj)|mlp\\.(gate|up|down)_proj)",
+  "jenis": "LoRA standar (B diinisialisasi nol)"
+ },
+ "kuantisasi": "4-bit NF4, double quant",
+ "attn_implementation": "sdpa",
+ "gradient_checkpointing": {
+  "use_reentrant": false
+ },
+ "dtype": "torch.float16",
+ "model_config_sha256": "d0883072e01861ed0b2d47be3c16c36a8e81c224c7ffaa310c6558fb3f932b05"
+}

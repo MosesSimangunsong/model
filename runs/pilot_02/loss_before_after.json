@@ -1,0 +1,69 @@
+{
+ "awal": {
+  "per_contoh": [
+   {
+    "example_id": "pilot_bdd_01_s001_qg",
+    "task": "qg",
+    "loss": 0.6722480058670044,
+    "token_target": 707
+   },
+   {
+    "example_id": "pilot_bdd_01_s001_ae_q1",
+    "task": "ae",
+    "loss": 0.8446115851402283,
+    "token_target": 418
+   },
+   {
+    "example_id": "pilot_bdd_01_s001_ae_q2",
+    "task": "ae",
+    "loss": 0.7976452708244324,
+    "token_target": 437
+   },
+   {
+    "example_id": "pilot_bdd_01_s001_ae_q3",
+    "task": "ae",
+    "loss": 0.754165530204773,
+    "token_target": 443
+   }
+  ],
+  "berbobot_token_semua": 0.7536126164426827,
+  "berbobot_token_qg": 0.6722480058670044,
+  "berbobot_token_ae": 0.7979306285204983,
+  "rumus": "sum(loss_i * token_target_i) / sum(token_target_i)",
+  "catatan": "loss pada data latih pilot, bukan validation/test loss"
+ },
+ "akhir": {
+  "per_contoh": [
+   {
+    "example_id": "pilot_bdd_01_s001_qg",
+    "task": "qg",
+    "loss": 0.275034099817276,
+    "token_target": 707
+   },
+   {
+    "example_id": "pilot_bdd_01_s001_ae_q1",
+    "task": "ae",
+    "loss": 0.2609737813472748,
+    "token_target": 418
+   },
+   {
+    "example_id": "pilot_bdd_01_s001_ae_q2",
+    "task": "ae",
+    "loss": 0.2664508819580078,
+    "token_target": 437
+   },
+   {
+    "example_id": "pilot_bdd_01_s001_ae_q3",
+    "task": "ae",
+    "loss": 0.29240939021110535,
+    "token_target": 443
+   }
+  ],
+  "berbobot_token_semua": 0.27407109449034617,
+  "berbobot_token_qg": 0.275034099817276,
+  "berbobot_token_ae": 0.27354656077221107,
+  "rumus": "sum(loss_i * token_target_i) / sum(token_target_i)",
+  "catatan": "loss pada data latih pilot, bukan validation/test loss"
+ },
+ "catatan": "turunnya loss latih adalah pemeriksaan kewajaran, bukan bukti kualitas"
+}
