@@ -38,3 +38,12 @@ docs/proposal/
 # Bungkusan dan salinan untuk Colab
 pilot_colab.zip
 pilot_colab/
+
+# Salinan skill untuk agent lain (duplikat .claude/skills)
+.agents/
+
+# Semua arsip zip (unduhan run dari Drive, bungkusan Colab)
+*.zip
+
+# Salinan processor/tokenizer di folder run (bisa dibuat ulang dari model)
+runs/**/processor/
